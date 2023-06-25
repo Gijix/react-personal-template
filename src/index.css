@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(36, 36, 36);
+}
+
+.operator {
+  @apply w-7 h-6 bg-slate-500 rounded justify-center;
+  line-height: 22px;
+}
